@@ -1,0 +1,207 @@
+* {
+    margin: 0 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: black;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-size: 33px;
+    opacity: 0.9;
+    display: block;
+    color: seashell;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: Helvetica;
+    font-size: 26px;
+    opacity: 0.9;
+    display: block;
+    color: seashell;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h4 {
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    display: block;
+    color: seashell;
+    text-align: center;
+}
+
+h5 {
+    font-family: Helvetica;
+    font-size: 18px;
+    opacity: 0.9;
+    display: block;
+    color: seashell;
+    text-align: center;
+}
+
+p {
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    display: block;
+    color: seashell;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    z-index: 20;
+    background-color: black;
+}
+
+nav img {
+    height: 50px;
+    width: auto;
+    padding-left: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;;
+}
+
+nav li {
+    float: left;
+    padding-right: 20px;
+}
+
+nav li:last-child {
+    float: left;
+    padding-right: 0px;
+}
+
+li a {
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    display: block;
+    color: seashell;
+    text-align: center;
+    text-decoration: underline;
+}
+
+header {
+    position: relative;
+    top: 69px;
+    background: url('../images/img-mission-background.jpg') no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+header #mission {
+    position: relative;
+    height: 90px;
+    top: 305px;
+    padding: 10px 0;
+    background-color: black;
+}
+
+main {
+    position: relative;
+    top: 150px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.month {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.month section {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.month section img {
+    width: 300px;
+    height: 200px;
+}
+
+.locations {
+    height: 500px;
+    background: url('../images/img-locations-background.jpg') no-repeat;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+}
+
+.address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.address section {
+    width: 300px;
+    margin-right: 40px;
+    background-color: black;
+    padding-bottom: 10px;
+}
+
+.address section:last-child {
+    margin-right: 0;
+}
+
+.address section h3 {
+    line-height: 60px;
+}
+
+.address section p {
+    line-height: 60px;
+}
+
+.contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    position: relative;
+    margin: 0 auto;
+    top: 180px;
+    width: 1200px;
+    padding: 20px;
+}
+
+footer p {
+    text-align: left;
+    font-size: 18px;
+}
